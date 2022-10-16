@@ -1,0 +1,91 @@
+.item-wrapper {
+    height: 309px;
+    width: 341px;
+}
+
+.item-img{
+    width: 341px;
+    height: 193.17px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.item-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 4px;
+}
+.item-content-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 34px;
+}
+.item-like-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.item-rating{
+    display: flex;
+    align-items: top;
+}
+
+
+
+.item-like-btn{
+    width: 78px;
+    height: 32px;
+    border: 1px solid #484848;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #484848;
+    background-color: white;
+}
+.item-province{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0;
+    color: #767676;
+    padding: 0px 6px
+}
+.rating-point{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #484848;
+    padding-left: 2px;
+}
+.item-location span {
+    padding-left: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height, or 150% */
+
+
+    color: #000000;
+}
+
+.item-cost span,
+.item-area span{
+    padding-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #060606;
+
+}

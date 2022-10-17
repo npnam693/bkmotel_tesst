@@ -2,12 +2,12 @@ import express from 'express';
 import bodyParser from 'body-parser'
 import mongoose from 'mongoose';
 
-import roomsRoutes from './routes/rooms.js'
+import route from './routes/index.js'
 
 const app = express();
 
+route(app)
 
-app.use('/rooms', roomsRoutes);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 

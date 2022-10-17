@@ -1,10 +1,10 @@
-import './style.css'
+import styles from './style.module.css'
 import RoomItem from '../../components/RoomItem'
 function HomePage() {
     return (
-        <div className = 'home-content-wrapper'>
-            <div className = 'home-content-inner'>
-                <div className = 'show-item'>
+        <div className = {styles.wrapper}>
+            <div className = {styles.inner}>
+                <div className = {styles.itemList}>
                     <RoomItem></RoomItem>
                     <RoomItem></RoomItem>
                     <RoomItem></RoomItem>

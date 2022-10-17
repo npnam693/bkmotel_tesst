@@ -1,37 +1,38 @@
-.item-wrapper {
+.wrapper {
     height: 309px;
     width: 341px;
 }
 
-.item-img{
+.img{
     width: 341px;
     height: 193.17px;
     object-fit: cover;
     border-radius: 4px;
 }
-.item-content{
+.content{
     display: flex;
     flex-direction: column;
     padding: 0 4px;
 }
-.item-content-action{
+.contentAction{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 34px;
 }
-.item-like-wrapper{
+.likeWrapper{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
-.item-rating{
+.rating{
     display: flex;
-    align-items: top;
+    align-items: center;
 }
 
 
 
-.item-like-btn{
+.likeBtn{
     width: 78px;
     height: 32px;
     border: 1px solid #484848;
@@ -44,8 +45,7 @@
     color: #484848;
     background-color: white;
 }
-.item-province{
-    
+.province{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -55,16 +55,15 @@
     color: #767676;
     padding: 0px 6px
 }
-.rating-point{
+.ratingPoint{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 14px;
     color: #484848;
     padding-left: 2px;
 }
-.item-location span {
+.locationContent{
     padding-left: 10px;
 
     font-family: 'Roboto';
@@ -78,8 +77,8 @@
     color: #000000;
 }
 
-.item-cost span,
-.item-area span{
+.costContent,
+.areaContent{
     padding-left: 10px;
     font-family: 'Roboto';
     font-style: normal;

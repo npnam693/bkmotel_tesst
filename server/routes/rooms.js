@@ -1,11 +1,11 @@
 import express, { response } from 'express';
-import { getRooms } from '../controllers/roomController.js'
+import * as RoomController from '../controllers/RoomController.js'
 
 const router = express.Router();
 
-router.get('/', getRooms)
-router.get('/getRooms', getRooms )
-// router.post('/createRoom', createRoom)
+router.get('/', RoomController.RoomMenu)
+router.get('/getRooms', RoomController.getRooms )
+// router.post('/store', courseController.store);
 
 
 export default router;

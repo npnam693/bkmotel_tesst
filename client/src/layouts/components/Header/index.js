@@ -1,19 +1,19 @@
-import './style.css'
+import styles from './style.module.css'
 import Search from '../Search'
 function Header() {
     return (
         <>
-            <div class='header-container'></div>
-            <header className="header-wrapper">
-                <div className = "header-inner">
-                    <a href = '/' className = "logo-page">BKMotel</a>
+            <div className = {styles.container}></div>
+            <header className = {styles.wrapper}>
+                <div className = {styles.inner}>
+                    <a href = '/' className = {styles.logo}>BKMotel</a>
                     
                     <Search />
 
-                    <div className = "header-action">
-                        <a href = '/' className = "upload-button">ĐĂNG BÀI</a>
+                    <div className = {styles.action}>
+                        <a href = '/' className = {styles.uploadBtn}>ĐĂNG BÀI</a>
                         
-                        <button className = "avatar-button">
+                        <button className = {styles.avatarOption}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                             </svg>

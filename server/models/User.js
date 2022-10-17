@@ -1,14 +1,18 @@
 import mongoose from "mongoose";
 
 const UserSchema = mongoose.Schema({
-    title: String,
-    creator: String,
-    image: [String],
+    username: String,
+    email: String,
+    passwork: String,
     
-    ratingCount: Number,
-    ratingPoint: Float32Array,
-    Area: Number,
-    description: String,
+    name: String,
+    avatar: String,
+    favourites: [String],
+    reviews : [String],
+    
+    
+    phoneNumber: String,
+
 
     createAt: {
         type: Date,

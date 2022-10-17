@@ -11,7 +11,8 @@ route(app)
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const CONNECTION_URL = "mongodb+srv://nam_memory:nam_memory@cluster0.s8dtb44.mongodb.net/?retryWrites=true&w=majority"
+const CONNECTION_URL = "mongodb+srv://nam_memory:nam_memory@cluster0.s8dtb44.mongodb.net/BKMotel?retryWrites=true&w=majority"
+
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, {
